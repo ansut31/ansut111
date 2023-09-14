@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>
+            Resep Html
+        </title>
+    </head>
+
+<hr>
+
+    <!-- Membuat Link-->
+    <h1> Membuat Link</h1>
+    <p> Pertama Membuat Link Dengan cara a href = "http://www.google.com"> <a href = "http://www.google.com">Google</a></p>
+    <p> Menuju Ke Halaman Sendiri</p>
+    <ul>
+        <Li> <a href = "index.html"> Halaman Index</a></Li>
+    </ul>
+     <h1> Mengirim email & Dan menuju link dan posisinya</h1>
+     <a href = "mailto:anasadnangaming123@gmail.com">Mengirim email ke anasadnangaming123</a>
+<p><a href = "index.html#DefinitionList"> Menuju Index Dan Definition List</a>
+</p>
+<!-- HTML ATTRIBUTE-->
+<h1> HTML ATTRIBUTE</h1>
+<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac orci quis neque consectetur egestas id eget dui. Etiam eu mattis tortor, id tempor metus. Phasellus in tincidunt lorem. Maecenas et venenatis libero. Integer consequat aliquam dolor, non facilisis tellus. Phasellus in consequat urna. Sed ultrices tincidunt sapien sed consectetur. Ut velit elit, sodales in erat non, posuere finibus tortor. Aenean pretium erat ac augue tristique, sit amet vehicula mi rhoncus. Quisque tempor finibus erat at interdum.</p>
+<p align="right">Nunc eu arcu id lacus tincidunt gravida. Sed blandit est in nibh fermentum, non faucibus lacus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam turpis sapien, feugiat non libero ut, tincidunt convallis sapien. Donec vestibulum arcu quis risus convallis tincidunt. Proin ac ex et tortor sollicitudin feugiat. Etiam cursus neque eu vulputate fermentum. Aliquam efficitur turpis vel augue eleifend sagittis. Aliquam non lacus risus. Morbi eget iaculis libero, id tempor dui. Quisque sed elit venenatis, elementum turpis id, tempor nunc. In vel suscipit erat. Nullam eleifend malesuada dui sed egestas. Sed dictum, ex id tristique vehicula, nunc odio iaculis arcu, sit amet tristique diam eros at nunc.</p>
+
+<H1> MEMBUAT TABEL</H1>
+<!-- Membuat Tabel -->
+<!-- tr, (tabel row) = baris-->
+<!-- td, (tabel data) = membuat sel atau data-->
+<!-- th, (thead) untuk header header-->
+
+<p> cara penggunanan table adalah dengan <b>cara membuat table border = "isi berapa tabel setiap nomer/huruf"</b> dan berisikan <b> didalam (tr) ada td ,th</b></p>
+
+<h2>TD colspan untuk baris, jadi bisa custom</h2>
+
+<table border = "1">
+
+<tr>
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <th>Rabu</th>
+        <tr>
+            <th>10.00</th>
+            <td colspan="3"> Makan siang</td>
+            <tr>
+                <th>11.00</th>
+                <td colspan = "3"> Makan lagi</td>
+
+            </tr>
+            
+
+        </tr>
+</tr>
+
+
+
+
+</table>
+<h2> TH rowspan untuk kolom</h2>
+<table border = "10">
+    <tr>
+        <th></th>
+        <th> Senin</th>
+        <th> Selasa</th>
+        <th> Rabu</th>
+
+
+        <tr>
+             <th rowspan="2">10.00</th>
+            <td> Makan Siang</td>
+            <td> Makan Lagi</td>
+            <tr>
+                
+                <td> makan sore</td>
+                <td> makan malem</td>
+            </tr>     
+            </tr>
+    </tr>
+</table>
+<hr/>
+
+<h1> MEMBUAT FORM</h1>
+<label>
+<br>
+    Nama Depan : <input type = "text"><br>
+    Nama Belakang : <input type = "text"><br>
+   
+    Password : <input type = "password"><BR>
+    <input type = "RADIO" name = "Submit"value="IYA"><label for ="iya">iya</label> <br>
+    <input type = "RADIO"name = "Submit"value="tidak"><label for ="tidak">tidak</label>
+<br>
+        <h4>Musik Favorit(checkbox) </h4>
+        <input type = "checkbox" name = "dangdut "><label for = "dangdut">dangdut</label><br> 
+        <input type = "checkbox" name = "jazz"><label for = "jazz">jazz</label>
+<br>
+   
+<h4> Dropdown List</h4>
+<select name = "pekerjaan>">
+    <option value = "Mahasiswa">Mahasiswa </option>
+    <option value = "Wirausaha">Wirausaha </option>
+</select>
+<h4> Upload File</h4>
+
+<input type = "file" name = "foto" value = "upload_foto">
+<br>
+<br>
+<label for = "data_nama">Nama:</label>
+<input type = "text" id="data_nama" for = "data_nama"><br>
+<br>
+<label for = "data_tanya">Pertanyaan:</label><br>
+<textarea name ="data_tanya" id="data_tanya" cols="30" rows="10">isi pertanyaan</textarea>
+
+
+<br>
+<input type = "button" name = "Submit"
+value="Submit"> 
+
+
+
+</form>
+
+
+
+
+</body>
+
+</html>
